@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "lib": ["es2015", "es2019.array"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@exchange/microservices": ["../microservices/src/index.ts"],
+      "@exchange/common": ["../common/src/index.ts"],
+      "@exchange/logger": ["../logger/src/index.ts"],
+      "@exchange/db-service": ["../db-service/src/index.ts"],
+      "@exchange/entities-service": ["../entities-service/src/index.ts"],
+      "@exchange/exchange-services": ["../exchange-services/src/index.ts"],
+      "@exchange/request-handler-service": ["../request-handler-service/src/index.ts"],
+      "@exchange/user-profile-service": ["../user-profile-service/src/index.ts"],
+      "@exchange/trading-operations-service": ["../trading-operations-service/src/index.ts"],
+      "@exchange/env-service": ["/../env-service/src/index.ts"],
+      "@exchange/events-service": ["/../events-service/src/index.ts"],
+      "@exchange/events-handler-service": ["/../events-handler-service/src/index.ts"],
+      "@exchange/notification-service": ["/../notification-service/src/index.ts"],
+      "@exchange/exchange-events-service": ["/../exchange-events-service/src/index.ts"],
+      "@exchange/reconciliation-service": ["/../reconciliation-service/src/index.ts"]
+    },
+    "outDir": "dist"
+  },
+  "baseUrl": ".",
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "lib": ["es2015"]
+}

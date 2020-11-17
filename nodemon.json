@@ -1,0 +1,10 @@
+{
+  "watch": ["../**/src/"],
+  "ext": "ts",
+  "ignore": ["*.test.ts", "*.specs.ts"],
+  "delay": 1,
+  "verbose": false,
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  }
+}
